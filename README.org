@@ -13,6 +13,54 @@ options:
    This API allows you to access information about characters,
    planets, and vehicles from the Star Wars universe. It's a fun and
    engaging way to learn API programming.
+*** First API calls
+    #+begin_src shell
+      curl https://sw-api.starnavi.io/planets/1/
+    #+end_src
+
+    #+RESULTS:
+    | {"id":1 | name:"Tatooine" | rotation_period:"23" | orbital_period:"304" | diameter:"10465" | climate:"arid" | gravity:"1 standard" | terrain:"desert" | surface_water:"1" | population:"200000" | residents:[43 | 1 | 2 | 4 | 6 | 7 | 8 | 9 | 11 | 62] | films:[1 | 3 | 4 | 5 | 6] | created:"2014-12-09T13:50:49.641000Z" | edited:"2014-12-20T20:58:18.411000Z" | url:"https://sw-api.starnavi.io/planets/1/"} |
+
+    #+begin_src json
+      {
+        "id": 1,
+        "name": "Tatooine",
+        "rotation_period": "23",
+        "orbital_period": "304",
+        "diameter": "10465",
+        "climate": "arid",
+        "gravity": "1 standard",
+        "terrain": "desert",
+        "surface_water": "1",
+        "population": "200000",
+        "residents": [
+          43,
+          1,
+          2,
+          4,
+          6,
+          7,
+          8,
+          9,
+          11,
+          62
+        ],
+        "films": [
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "created": "2014-12-09T13:50:49.641000Z",
+        "edited": "2014-12-20T20:58:18.411000Z",
+        "url": "https://sw-api.starnavi.io/planets/1/"
+      }
+    #+end_src
+
+    #+begin_src shell
+      curl https://sw-api.starnavi.io/species/?name=human
+    #+end_src
 ** Pokémon API
    The Pokémon API provides data about Pokémon, their types, moves,
    and more. It's another enjoyable API to work with, especially if
