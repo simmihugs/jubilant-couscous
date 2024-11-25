@@ -1,0 +1,28 @@
+#+TITLE: Learning about APIs
+
+There are several APIs specifically designed for learning purposes
+that you can use for free to practice API programming. Here are a few
+options:
+
+** NASA API
+   NASA provides a public API that gives access to a
+   wealth of data, including images, videos, and information about
+   space missions. It's a great resource for learning how to interact
+   with APIs and work with large datasets.
+** Star Wars API
+   This API allows you to access information about characters,
+   planets, and vehicles from the Star Wars universe. It's a fun and
+   engaging way to learn API programming.
+** Pokémon API
+   The Pokémon API provides data about Pokémon, their types, moves,
+   and more. It's another enjoyable API to work with, especially if
+   you're a fan of Pokémon.
+** PRAW (Python Reddit API Wrapper)
+   PRAW is a Python library that allows you to interact with Reddit's
+   API. It's a great way to learn how to work with social media APIs
+   and handle user-generated content.
+** ClassMarker API
+   This API helps educators create customizable tests and
+   quizzes. It's useful for learning how to build and manage online
+   assessments.
+
